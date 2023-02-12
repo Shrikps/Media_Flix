@@ -42,8 +42,7 @@ const content = ({ movie }) => {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+				
 			) : (
 				<div className="content-container">
 					<h4>This movie does not exist...</h4>
