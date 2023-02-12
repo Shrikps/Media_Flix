@@ -33,6 +33,12 @@ const content = ({ movie }) => {
 								<div className="line-cont">
 									<h4>Released:</h4>
 									<p>{movie.Released}</p>
+								</div><div className="line-cont">
+									<h4>Ratings:</h4>
+									<p>{movie.Raitings[0].Source}</p></br>
+										<p>{movie.Raitings[0].Value}</p>
+										<p>{movie.Raitings[1].Source}</p></br>
+										<p>{movie.Raitings[1].Value}</p>
 								</div>
 							</div>
 						</div>
